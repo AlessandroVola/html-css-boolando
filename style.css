@@ -23,6 +23,7 @@ body {
 
 /* content */
 
+/* header */
 header {
     background-color: #ff6801;
     color: #fff;
@@ -53,4 +54,41 @@ header {
 
 .logo {
     height: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding: 0px 170px;
+    bottom: 0px;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.society-name {
+    font-size: 0.8rem;
+}
+
+
+.info>* {
+    padding: 0 5px 0 0;
+}
+
+
+h4 {
+    font-size: 12px;
+}
+
+.social-logos>* {
+    font-size: 12px;
+    padding: 10px 5px 0 0;
 }
