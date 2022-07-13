@@ -8,3 +8,49 @@
 body {
     font-family: sans-serif;
 }
+
+
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+/* content */
+
+header {
+    background-color: #ff6801;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 0px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    width: 100%;
+}
+
+.genere>*,
+.miniloghi>* {
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+
+.miniloghi {
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 20px;
+}
